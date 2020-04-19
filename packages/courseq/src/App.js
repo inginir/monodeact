@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        THIS IS INVENTORY
+        This is courseq
       </header>
     </div>
   );

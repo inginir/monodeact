@@ -1,0 +1,39 @@
+{
+  "name": "@monodeact/theserver",
+  "version": "1.0.0",
+  "description": "a server to rule them all",
+  "author": "Monaggar <moxnaggar@gmail.com>",
+  "homepage": "https://github.com/monaggar/monodeact#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monaggar/monodeact.git"
+  },
+  "scripts": {
+    "start:dev": "nodemon src",
+    "start": "node src",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/monaggar/monodeact/issues"
+  },
+  "dependencies": {
+    "@monodeact/config": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
