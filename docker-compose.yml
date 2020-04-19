@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  theserver:
+    container_name: theserver
+    build: ./apps/theserver
+    command: npm run start:dev
+    volumes:
+      - ./apps/theserver:/usr/src/app
+      - /usr/src/app/node_modules
+    expose:
+      - 7000
+    ports:
+      - 7000:7000

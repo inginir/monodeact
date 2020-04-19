@@ -3,8 +3,13 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/*",
-      "packages/*/*"
+      "apps/*",
+      "apps/*/*",
+      "libs/*",
+      "libs/*/*"
+    ],
+    "nohoist": [
+      "**"
     ]
   },
   "devDependencies": {

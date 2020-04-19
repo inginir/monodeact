@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import config from "@monodeact/config"
+import config from "./projects.json"
 
 function App() {
   return (

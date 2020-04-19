@@ -4,7 +4,7 @@ var path = require('path');
 var request = require('request');
 const express = require('express');
 const app = express()
-const config = require('@monodeact/config');
+const config = require('../projects.json');
 
 const port = 7000;
 
