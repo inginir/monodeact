@@ -2,6 +2,6 @@
 
 const theserver = require('..');
 
-describe('@monodeact/theserver', () => {
+describe('@mngr/theserver', () => {
     it('needs tests');
 });

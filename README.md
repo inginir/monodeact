@@ -1,6 +1,6 @@
 ## to add a lib or app
 
-- make sure the package.json name is named appropriately @monodeact/package_name
+- make sure the package.json name is named appropriately @mngr/package_name
 - add app config in lib/config so it appears on theserver and dashboard
 
 ## monorepo tips

@@ -1,11 +1,11 @@
-# `@monodeact/config`
+# `@mngr/config`
 
 > TODO: description
 
 ## Usage
 
 ```
-const config = require('@monodeact/config');
+const config = require('@mngr/config');
 
 // TODO: DEMONSTRATE API
 ```

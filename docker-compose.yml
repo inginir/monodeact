@@ -5,7 +5,8 @@ services:
     build: ./apps/theserver
     command: npm run start:dev
     volumes:
-      - ./apps/theserver:/usr/src/app
+      # this is for live reload if you're running locally
+      # - ./apps/theserver:/usr/src/app
       - /usr/src/app/node_modules
     expose:
       - 7000

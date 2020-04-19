@@ -1,11 +1,11 @@
-# `@monodeact/theserver`
+# `@mngr/theserver`
 
 > TODO: description
 
 ## Usage
 
 ```
-const theserver = require('@monodeact/theserver');
+const theserver = require('@mngr/theserver');
 
 // TODO: DEMONSTRATE API
 ```

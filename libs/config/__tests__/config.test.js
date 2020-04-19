@@ -2,6 +2,6 @@
 
 const config = require('..');
 
-describe('@monodeact/config', () => {
+describe('@mngr/config', () => {
     it('needs tests');
 });
