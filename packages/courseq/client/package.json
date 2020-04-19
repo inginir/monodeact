@@ -1,5 +1,5 @@
 {
-  "name": "@monodeact/courseq",
+  "name": "@monodeact/courseq_client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

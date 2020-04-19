@@ -8,8 +8,6 @@ const config = require('@monodeact/config');
 
 const port = 7000;
 
-console.log(';config', config);
-
 (() => {
     config.map(({ projectPath, url, filePath }) => {
         //for express to know where the static file is I guess?
